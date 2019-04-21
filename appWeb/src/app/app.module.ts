@@ -9,12 +9,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { CoverComponent } from './cover/cover.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { CoverSliderComponent } from './cover-slider/cover-slider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    CoverComponent
+    CoverComponent,
+    NavbarComponent,
+    CoverSliderComponent
   ],
   imports: [
     BrowserModule,
