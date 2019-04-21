@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { CoverComponent } from './cover/cover.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CoverSliderComponent } from './cover-slider/cover-slider.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CoverSliderComponent } from './cover-slider/cover-slider.component';
     HeaderComponent,
     CoverComponent,
     NavbarComponent,
-    CoverSliderComponent
+    CoverSliderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
