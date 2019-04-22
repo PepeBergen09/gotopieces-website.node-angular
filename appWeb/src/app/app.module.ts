@@ -12,6 +12,11 @@ import { CoverComponent } from './cover/cover.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CoverSliderComponent } from './cover-slider/cover-slider.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainComponent } from './main/main.component';
+import { MainFeaturesComponent } from './main/main-features/main-features.component';
+import { MainInfoComponent } from './main/main-info/main-info.component';
+import { MainMoreFeaturesComponent } from './main/main-more-features/main-more-features.component';
+import { MainFeatures2Component } from './main/main-features2/main-features2.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { FooterComponent } from './footer/footer.component';
     CoverComponent,
     NavbarComponent,
     CoverSliderComponent,
-    FooterComponent
+    FooterComponent,
+    MainComponent,
+    MainFeaturesComponent,
+    MainInfoComponent,
+    MainMoreFeaturesComponent,
+    MainFeatures2Component
   ],
   imports: [
     BrowserModule,
