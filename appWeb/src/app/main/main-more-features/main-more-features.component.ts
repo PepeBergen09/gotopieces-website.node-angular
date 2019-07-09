@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-main-more-features',
-  templateUrl: './main-more-features.component.html',
-  styleUrls: ['./main-more-features.component.css']
+  templateUrl: './main-more-features.component.html'
 })
 export class MainMoreFeaturesComponent implements OnInit {
 

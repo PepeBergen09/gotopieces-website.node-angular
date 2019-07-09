@@ -7,8 +7,6 @@ import {
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './header/header.component';
-import { CoverComponent } from './cover/cover.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CoverSliderComponent } from './cover-slider/cover-slider.component';
 import { FooterComponent } from './footer/footer.component';
@@ -21,8 +19,6 @@ import { MainFeatures2Component } from './main/main-features2/main-features2.com
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    CoverComponent,
     NavbarComponent,
     CoverSliderComponent,
     FooterComponent,
