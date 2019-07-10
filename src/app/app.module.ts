@@ -17,6 +17,14 @@ import { MainFeaturesComponent } from './main/main-features/main-features.compon
 import { MainInfoComponent } from './main/main-info/main-info.component';
 import { MainMoreFeaturesComponent } from './main/main-more-features/main-more-features.component';
 import { MainFeatures2Component } from './main/main-features2/main-features2.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { TeamComponent } from './team/team.component';
+import { ContactComponent } from './contact/contact.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { MainFeatures1Component } from './main/main-features1/main-features1.component';
+import { MainFeatures3Component } from './main/main-features3/main-features3.component';
+import { MainTeamComponent } from './main/main-team/main-team.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +38,15 @@ import { MainFeatures2Component } from './main/main-features2/main-features2.com
     MainFeaturesComponent,
     MainInfoComponent,
     MainMoreFeaturesComponent,
-    MainFeatures2Component
+    MainFeatures2Component,
+    AboutusComponent,
+    TeamComponent,
+    ContactComponent,
+    TestimonialComponent,
+    SubscriptionComponent,
+    MainFeatures1Component,
+    MainFeatures3Component,
+    MainTeamComponent
   ],
   imports: [
     BrowserModule,
