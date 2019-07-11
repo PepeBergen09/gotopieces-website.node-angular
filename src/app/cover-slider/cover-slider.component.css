@@ -1,0 +1,9 @@
+.logo{
+    text-align: center;
+}
+
+.logo img
+{
+    display: inline-block;
+    padding-top: 200px;
+}

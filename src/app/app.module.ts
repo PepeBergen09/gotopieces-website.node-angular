@@ -25,6 +25,8 @@ import { SubscriptionComponent } from './subscription/subscription.component';
 import { MainFeatures1Component } from './main/main-features1/main-features1.component';
 import { MainFeatures3Component } from './main/main-features3/main-features3.component';
 import { MainTeamComponent } from './main/main-team/main-team.component';
+import { MainComingsoonComponent } from './main/main-comingsoon/main-comingsoon.component';
+import { MainFjordarFeaturesComponent } from './main/main-fjordar-features/main-fjordar-features.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { MainTeamComponent } from './main/main-team/main-team.component';
     SubscriptionComponent,
     MainFeatures1Component,
     MainFeatures3Component,
-    MainTeamComponent
+    MainTeamComponent,
+    MainComingsoonComponent,
+    MainFjordarFeaturesComponent
   ],
   imports: [
     BrowserModule,
