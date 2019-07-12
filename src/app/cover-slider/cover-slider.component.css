@@ -7,3 +7,26 @@
     display: inline-block;
     padding-top: 200px;
 }
+
+
+.slider-img {
+	line-height: 1.2;
+    height: 100%;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.fjord {
+    background: #ffffff url('../../assets/images/fjord.jpg') no-repeat center top;
+}
+
+.montain-large {
+    background: #ffffff url('../../assets/images/montain-large.jpg') no-repeat center top;
+}
+
+.island-large2 {
+    background: #ffffff url('../../assets/images/island-large2.jpg') no-repeat center top;
+}
+
