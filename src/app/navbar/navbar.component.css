@@ -1,0 +1,35 @@
+@font-face {
+    font-family: upbolters;
+    src: url(../../assets/fonts/UPBOLTERS.otf);
+  }
+
+
+.strong {
+        font-size: 2rem;
+        font-family: 'upbolters';
+
+}
+
+#brand-1{
+  line-height: 20px;
+}
+
+#brand-1 img{
+  vertical-align: middle;
+  padding-right: 30px;
+  width: 100px;
+}
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+
+@media only screen and (max-width: 1210px) {
+  .strong {
+    font-size: 1.5rem;
+  }
+}
+
+
+

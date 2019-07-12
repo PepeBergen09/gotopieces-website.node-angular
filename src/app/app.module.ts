@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 import { 
   MatToolbarModule, MatCardModule 
@@ -27,6 +28,14 @@ import { MainFeatures3Component } from './main/main-features3/main-features3.com
 import { MainTeamComponent } from './main/main-team/main-team.component';
 import { MainComingsoonComponent } from './main/main-comingsoon/main-comingsoon.component';
 import { MainFjordarFeaturesComponent } from './main/main-fjordar-features/main-fjordar-features.component';
+import { HomeComponent } from './home/home.component';
+import { TestcomponentComponent } from './testcomponent/testcomponent.component';
+
+const appRoutes: Routes = [
+  {path: '', component: HomeComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'test', component: TestcomponentComponent},
+];
 
 @NgModule({
   declarations: [
@@ -50,13 +59,16 @@ import { MainFjordarFeaturesComponent } from './main/main-fjordar-features/main-
     MainFeatures3Component,
     MainTeamComponent,
     MainComingsoonComponent,
-    MainFjordarFeaturesComponent
+    MainFjordarFeaturesComponent,
+    HomeComponent,
+    TestcomponentComponent
   ],
   imports: [
     BrowserModule,
     MatToolbarModule,
     MatCardModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
