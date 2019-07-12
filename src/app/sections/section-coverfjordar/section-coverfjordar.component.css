@@ -2,10 +2,9 @@
 	line-height: 1.2;
     height: 100%;
     background: #ffffff url('../../../assets/images/stavkirke-1.png') no-repeat center top;
-    background-size: cover;
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    height: 500px;
 }
-
 
 .img-coming {
     opacity: 1;

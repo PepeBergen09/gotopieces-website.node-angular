@@ -30,10 +30,22 @@ import { MainComingsoonComponent } from './main/main-comingsoon/main-comingsoon.
 import { MainFjordarFeaturesComponent } from './main/main-fjordar-features/main-fjordar-features.component';
 import { HomeComponent } from './home/home.component';
 import { TestcomponentComponent } from './testcomponent/testcomponent.component';
+import { PageAboutusComponent } from './pages/page-aboutus/page-aboutus.component';
+import { PageNewsComponent } from './pages/page-news/page-news.component';
+import { PageGamesComponent } from './pages/page-games/page-games.component';
+import { PageContactComponent } from './pages/page-contact/page-contact.component';
+import { SectionContactComponent } from './sections/section-contact/section-contact.component';
+import { SectionCoverComponent } from './sections/section-cover/section-cover.component';
+import { SectionCoversliderComponent } from './sections/section-coverslider/section-coverslider.component';
+import { SectionCoverfjordarComponent } from './sections/section-coverfjordar/section-coverfjordar.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'contact', component: ContactComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'news', component: PageNewsComponent},
+  {path: 'games', component: PageGamesComponent},
+  {path: 'aboutus', component: PageAboutusComponent},
+  {path: 'contact', component: PageContactComponent},
   {path: 'test', component: TestcomponentComponent},
 ];
 
@@ -61,7 +73,15 @@ const appRoutes: Routes = [
     MainComingsoonComponent,
     MainFjordarFeaturesComponent,
     HomeComponent,
-    TestcomponentComponent
+    TestcomponentComponent,
+    PageAboutusComponent,
+    PageNewsComponent,
+    PageGamesComponent,
+    PageContactComponent,
+    SectionContactComponent,
+    SectionCoverComponent,
+    SectionCoversliderComponent,
+    SectionCoverfjordarComponent
   ],
   imports: [
     BrowserModule,
