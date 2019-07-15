@@ -1,6 +1,6 @@
 @font-face {
-    font-family: frisianus;
-    src: url(../../assets/fonts/FrisianusOT.otf);
+    font-family: upbolters;
+    src: url(../../assets/fonts/UPBOLTERS.otf);
   }
 
 
@@ -8,7 +8,7 @@ h2 {
         box-sizing: border-box;
         margin: 20px;
         padding: 80px;
-        font-family: 'frisianus';
+        font-family: 'upbolters';
 }
 
 .comingsoon {
@@ -71,7 +71,7 @@ table {
 }
 .logo h2
 {
-	font-family: 'frisianus';
+	font-family: 'upbolters';
 	font-size: 100px;
     padding-top: 15px;
 }
@@ -95,7 +95,7 @@ table {
 .about-title h2
 {
 	font-size: 24px;
-	font-family: 'Lobster', cursive;
+	font-family: 'frisianus';
 	padding-bottom: 10px;
 }
 .img

@@ -1,10 +1,23 @@
+@font-face {
+    font-family: upbolters;
+    src: url(../../../assets/fonts/UPBOLTERS.otf);
+  }
+
+
+.strong {
+        font-size: 2rem;
+        font-family: 'upbolters';
+
+}
+
 .comingsoon {
 	line-height: 1.2;
     height: 100%;
-    background: #ffffff url('../../../assets/images/stavkirke-1.png') no-repeat center top;
-    background-size: cover;
-	font-family: 'Open Sans', sans-serif;
+    background: #39383a;
+	font-family: 'upbolters';
 }
+
+
 
 
 .img-coming {
@@ -17,7 +30,7 @@
   }
 
   .button {
-    background-color: #027EFF;
+    background-color: rgb(146, 151, 149);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -50,20 +63,20 @@ table {
 ***********************************/
 .content
 {
-	
+	margin-top: 50px;
 	color: #fff;
 }
 .logo img
 {
     display: inline-block;
     padding-top: 24px;
+    padding-bottom: 50px;
 }
 .logo h2
 {
-	font-family: 'Lobster', cursive;
+	font-family: 'upbolters';
 	font-size: 34px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .input-group-addon {
@@ -85,7 +98,7 @@ table {
 .about-title h2
 {
 	font-size: 24px;
-	font-family: 'Lobster', cursive;
+	font-family: 'upbolters';
 	padding-bottom: 10px;
 }
 .img

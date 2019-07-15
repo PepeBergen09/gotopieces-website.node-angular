@@ -38,6 +38,8 @@ import { SectionContactComponent } from './sections/section-contact/section-cont
 import { SectionCoverComponent } from './sections/section-cover/section-cover.component';
 import { SectionCoversliderComponent } from './sections/section-coverslider/section-coverslider.component';
 import { SectionCoverfjordarComponent } from './sections/section-coverfjordar/section-coverfjordar.component';
+import { PartialNewslettersComponent } from './partials/partial-newsletters/partial-newsletters.component';
+import { PartialNewsComponent } from './partials/partial-news/partial-news.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -81,7 +83,9 @@ const appRoutes: Routes = [
     SectionContactComponent,
     SectionCoverComponent,
     SectionCoversliderComponent,
-    SectionCoverfjordarComponent
+    SectionCoverfjordarComponent,
+    PartialNewslettersComponent,
+    PartialNewsComponent
   ],
   imports: [
     BrowserModule,
