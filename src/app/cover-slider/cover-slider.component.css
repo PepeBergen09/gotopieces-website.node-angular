@@ -22,11 +22,15 @@
     background: #ffffff url('../../assets/images/fjord.jpg') no-repeat center top;
 }
 
-.montain-large {
-    background: #ffffff url('../../assets/images/montain-large.jpg') no-repeat center top;
-}
 
-.island-large2 {
-    background: #ffffff url('../../assets/images/island-large2.jpg') no-repeat center top;
+@media screen and (max-width: 1500px) {
+    .carousel-caption h3{
+        vertical-align: text-top;
+
+    }
+
+    .logo img{
+        padding-top: 120px
+    }
 }
 
