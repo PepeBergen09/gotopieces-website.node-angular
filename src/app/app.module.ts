@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, ViewChild, ElementRef } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 
 import { 
   MatToolbarModule, MatCardModule 
@@ -36,6 +37,11 @@ import { SectionCoversliderComponent } from './sections/section-coverslider/sect
 import { SectionCoverfjordarComponent } from './sections/section-coverfjordar/section-coverfjordar.component';
 import { PartialNewslettersComponent } from './partials/partial-newsletters/partial-newsletters.component';
 import { PartialNewsComponent } from './partials/partial-news/partial-news.component';
+import { AboutComponent } from './pages/page-aboutus/about/about.component';
+import { AboutCoverComponent } from './pages/page-aboutus/about-cover/about-cover.component';
+import { News1Component } from './news/news1/news1.component';
+import { NewsCoverComponent } from './news/news-cover/news-cover.component';
+
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -45,6 +51,9 @@ const appRoutes: Routes = [
   {path: 'aboutus', component: PageAboutusComponent},
   {path: 'contact', component: PageContactComponent},
   {path: 'test', component: TestcomponentComponent},
+  
+  {path: 'ukexpo2019', component: News1Component},
+
 ];
 
 @NgModule({
@@ -77,7 +86,12 @@ const appRoutes: Routes = [
     SectionCoversliderComponent,
     SectionCoverfjordarComponent,
     PartialNewslettersComponent,
-    PartialNewsComponent
+    PartialNewsComponent,
+    AboutComponent,
+    AboutCoverComponent,
+    News1Component,
+    NewsCoverComponent
+   
   ],
   imports: [
     BrowserModule,
@@ -89,4 +103,17 @@ const appRoutes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  @ViewChild('navbarToggler') navbarToggler:ElementRef;
+
+  navBarTogglerIsVisible() {
+    return this.navbarToggler.nativeElement.offsetParent !== null;
+  }
+
+  collapseNav() {
+    if(this.navBarTogglerIsVisible()){
+      this.navbarToggler.nativeElement.click();
+    }
+  }
+
+ }

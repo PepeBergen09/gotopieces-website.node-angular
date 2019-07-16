@@ -34,3 +34,9 @@
     }
 }
 
+@media screen and (max-with: 500px) {
+    .logo img{
+        padding-top: 200px
+    }
+}
+
