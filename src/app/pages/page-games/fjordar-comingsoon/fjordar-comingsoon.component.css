@@ -1,34 +1,33 @@
-@font-face {
-    font-family: upbolters;
-    src: url(../../../../assets/fonts/UPBOLTERS.otf);
-  }
-
-
-h2 {
-        box-sizing: border-box;
-        margin: 20px;
-        padding: 80px;
-        font-family: 'upbolters';
-}
-
 .comingsoon {
 	line-height: 1.2;
     height: 100%;
     background: #ffffff url('../../../../assets/images/stavkirke-1.png') no-repeat center top;
-    height: 300px;
-    margin-top: 0;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.margin-top-50{margin-top: 100px;}
 
 .img-coming {
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
   }
 
-  
+  .text-center{
+      text-align: center;
+  }
 
-
+  .button {
+    background-color: #027EFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 ol, ul {
 	list-style: none;
@@ -49,18 +48,22 @@ table {
 ***********************************/
 /**********************************
 ***********************************/
-
+.content
+{
+	
+	color: #fff;
+}
 .logo img
 {
     display: inline-block;
     padding-top: 24px;
-    padding-bottom: 50px;
 }
 .logo h2
 {
-	font-family: 'upbolters';
-	font-size: 100px;
-    padding-top: 15px;
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .input-group-addon {
@@ -82,7 +85,7 @@ table {
 .about-title h2
 {
 	font-size: 24px;
-	font-family: 'frisianus';
+	font-family: 'Lobster', cursive;
 	padding-bottom: 10px;
 }
 .img
@@ -252,12 +255,7 @@ h2.subs-title  {
 /**********************************
 Media Queries
 ***********************************/
-@media (min-width: 501px) and (max-width: 1000px) {
-
-    .logo h2 {
-        font-size: 70px;
-    }
-
+@media (min-width: 501px) and (max-width: 901px) {
     .contact-title{
         padding: 15px;
 }
@@ -277,10 +275,6 @@ body{
 }
 }
 @media (min-width: 20px) and (max-width: 500px) {
-
-    .logo h2 {
-        font-size: 56px;
-    }
     .contact-title{
         padding: 15px;
 }

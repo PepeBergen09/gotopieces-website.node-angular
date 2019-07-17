@@ -30,7 +30,8 @@
     }
 
     .logo img{
-        padding-top: 120px
+        padding-top: 120px;
+        width: 300px;
     }
 }
 

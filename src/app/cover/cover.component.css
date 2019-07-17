@@ -265,7 +265,12 @@ h2.subs-title  {
 /**********************************
 Media Queries
 ***********************************/
-@media (min-width: 501px) and (max-width: 901px) {
+@media (min-width: 501px) and (max-width: 1000px) {
+
+    .logo h2 {
+        font-size: 70px;
+    }
+
     .contact-title{
         padding: 15px;
 }
@@ -285,6 +290,10 @@ body{
 }
 }
 @media (min-width: 20px) and (max-width: 500px) {
+
+    .logo h2 {
+        font-size: 56px;
+    }
     .contact-title{
         padding: 15px;
 }
