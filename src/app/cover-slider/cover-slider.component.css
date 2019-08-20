@@ -1,11 +1,26 @@
 .logo{
     text-align: center;
+    height: 70%;
+    padding: 5% 0;
+    
+    
 }
+
 
 .logo img
 {
     display: inline-block;
-    padding-top: 200px;
+    /*padding-top: 200px;*/
+    height: 100%;
+    vertical-align: middle;
+    padding: 5% 0;
+    
+}
+
+.carousel-caption-2 {
+
+    color: #ffffff;
+    text-align: center;
 }
 
 
@@ -18,26 +33,145 @@
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
+
+
 .fjord {
     background: #ffffff url('../../assets/images/fjord.jpg') no-repeat center top;
 }
 
 
 @media screen and (max-width: 1500px) {
-    .carousel-caption h3{
-        vertical-align: text-top;
-
+    .logo{
+        text-align: center;
+        height: 80%;
+        padding: 5% 0;
+        
+        
+    }
+    
+    
+    .logo img
+    {
+        display: inline-block;
+        /*padding-top: 200px;*/
+        height: 100%;
+        vertical-align: middle;
+        padding: 5% 0;
+        
     }
 
-    .logo img{
-        padding-top: 120px;
-        width: 300px;
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .logo{
+        text-align: center;
+        height: 80%;
+        padding: 11% 0;
+        
+        
+    }
+    
+    
+    .logo img
+    {
+        display: inline-block;
+        /*padding-top: 200px;*/
+        height: 100%;
+        vertical-align: middle;
+        padding: 10% 0;
+        
+    }
+
+    
+}
+
+
+
+@media screen and (max-with: 992px) {
+    .logo{
+        text-align: center;
+        height: 80%;
+        padding: 5% 0;
+        
+        
+    }
+    
+    
+    .logo img
+    {
+        display: inline-block;
+        /*padding-top: 200px;*/
+        height: 100%;
+        vertical-align: middle;
+        padding: 15% 0;
+        
     }
 }
 
-@media screen and (max-with: 500px) {
-    .logo img{
-        padding-top: 200px
+@media screen and (max-with: 768px) {
+    .logo{
+        text-align: center;
+        height: 80%;
+        padding: 5% 0;
+        
+        
+    }
+    
+    
+    .logo img
+    {
+        display: inline-block;
+        /*padding-top: 200px;*/
+        height: 100%;
+        width: 300px;
+        vertical-align: middle;
+        padding: 17% 0;
+        
+    }
+}
+
+@media screen and (max-with: 480px) {
+    .logo{
+        text-align: center;
+        height: 80%;
+        padding: 25% 0;
+        
+        
+    }
+    
+    
+    .logo img
+    {
+        display: inline-block;
+        /*padding-top: 200px;*/
+        height: 100%;
+        width: 300px;
+        vertical-align: middle;
+        padding: 17% 0;
+        
+    }
+}
+
+@media screen and (max-with: 320px) {
+    .logo{
+        text-align: center;
+        height: 80%;
+        padding: 35% 0;
+        
+        
+    }
+    
+    
+    .logo img
+    {
+        display: inline-block;
+        /*padding-top: 200px;*/
+        height: 100%;
+        width: 350px;
+        vertical-align: middle;
+        padding: 150px 0;
+        
     }
 }
 
