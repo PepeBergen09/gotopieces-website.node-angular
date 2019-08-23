@@ -1,7 +1,9 @@
+
+
 .logo{
     text-align: center;
     height: 70%;
-    padding: 5% 0;
+    padding: 2% 0;
     
     
 }
@@ -40,138 +42,120 @@
 }
 
 
-@media screen and (max-width: 1500px) {
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1601px) {
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+  @media (min-width: 1281px) and (max-width: 1600px) {
+    
     .logo{
         text-align: center;
-        height: 80%;
-        padding: 5% 0;
-        
-        
+        height: 70%;
+        padding: 7% 0;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .logo{
+        text-align: center;
+        height: 70%;
+        padding: 8% 0;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .logo{
+        text-align: center;
+        height: 70%;
+        padding: 14% 0;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .logo{
+        text-align: center;
+        height: 70%;
+        padding: 14% 0;
     }
     
     
-    .logo img
-    {
-        display: inline-block;
-        /*padding-top: 200px;*/
-        height: 100%;
-        vertical-align: middle;
-        padding: 5% 0;
-        
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .logo{
+        text-align: center;
+        height: 70%;
+        padding: 26% 0;
     }
-
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .logo{
+        text-align: center;
+        height: 70%;
+        padding: 50% 0;
+    }
    
-}
+    
+  }
 
-@media screen and (max-width: 1200px) {
+  @media (max-width: 319px) {
     .logo{
         text-align: center;
-        height: 80%;
-        padding: 11% 0;
-        
         
     }
-    
-    
+
     .logo img
-    {
-        display: inline-block;
-        /*padding-top: 200px;*/
+{
+    display: inline-block;
+    /*padding-top: 200px;*/
+    vertical-align: middle;
+    padding-top: 100px;
+        width: 250px;
         height: 100%;
-        vertical-align: middle;
-        padding: 10% 0;
-        
-    }
-
-    
 }
+   
+    
+  }
 
-
-
-@media screen and (max-with: 992px) {
-    .logo{
-        text-align: center;
-        height: 80%;
-        padding: 5% 0;
-        
-        
-    }
-    
-    
-    .logo img
-    {
-        display: inline-block;
-        /*padding-top: 200px;*/
-        height: 100%;
-        vertical-align: middle;
-        padding: 15% 0;
-        
-    }
-}
-
-@media screen and (max-with: 768px) {
-    .logo{
-        text-align: center;
-        height: 80%;
-        padding: 5% 0;
-        
-        
-    }
-    
-    
-    .logo img
-    {
-        display: inline-block;
-        /*padding-top: 200px;*/
-        height: 100%;
-        width: 300px;
-        vertical-align: middle;
-        padding: 17% 0;
-        
-    }
-}
-
-@media screen and (max-with: 480px) {
-    .logo{
-        text-align: center;
-        height: 80%;
-        padding: 25% 0;
-        
-        
-    }
-    
-    
-    .logo img
-    {
-        display: inline-block;
-        /*padding-top: 200px;*/
-        height: 100%;
-        width: 300px;
-        vertical-align: middle;
-        padding: 17% 0;
-        
-    }
-}
-
-@media screen and (max-with: 320px) {
-    .logo{
-        text-align: center;
-        height: 80%;
-        padding: 35% 0;
-        
-        
-    }
-    
-    
-    .logo img
-    {
-        display: inline-block;
-        /*padding-top: 200px;*/
-        height: 100%;
-        width: 350px;
-        vertical-align: middle;
-        padding: 150px 0;
-        
-    }
-}
 
