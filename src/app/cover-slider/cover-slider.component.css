@@ -19,6 +19,13 @@
     
 }
 
+.text-cover {
+    display: block;
+    line-height: 1.9; 
+    z-index: 10; 
+    font-size: 1.5rem;
+}
+
 .carousel-caption-2 {
 
     color: #ffffff;
@@ -61,7 +68,7 @@
     .logo{
         text-align: center;
         height: 70%;
-        padding: 7% 0;
+        padding: 3% 0;
     }
   }
   
@@ -105,6 +112,13 @@
         height: 70%;
         padding: 14% 0;
     }
+
+    .text-cover {
+        display: block;
+        line-height: 1.5; 
+        z-index: 10; 
+        font-size: 1.2rem;
+    }
     
     
   }
@@ -117,8 +131,16 @@
   @media (min-width: 481px) and (max-width: 767px) {
     .logo{
         text-align: center;
-        height: 70%;
-        padding: 26% 0;
+        height: 60%;
+        padding: 3% 0;
+        padding-top: 100px; 
+    }
+
+    .text-cover {
+        display: block;
+        line-height: 1.5; 
+        z-index: 10; 
+        font-size: 1.2rem;
     }
     
     
@@ -132,30 +154,35 @@
   @media (min-width: 320px) and (max-width: 480px) {
     .logo{
         text-align: center;
-        height: 70%;
-        padding: 50% 0;
+        height: 60%;
+        padding: 5% 0;
+        padding-top: 100px; 
     }
    
+    .text-cover {
+        display: block;
+        line-height: 1.2; 
+        z-index: 10; 
+        font-size: 1rem;
+        
+    }
     
   }
 
   @media (max-width: 319px) {
     .logo{
         text-align: center;
-        
+        height: 70%;
+        padding: 5% 0;
+        padding-top: 100px; 
     }
 
-    .logo img
-{
-    display: inline-block;
-    /*padding-top: 200px;*/
-    vertical-align: middle;
-    padding-top: 100px;
-        width: 250px;
-        height: 100%;
-}
-   
-    
+    .text-cover {
+        display: block;
+        line-height: 1; 
+        z-index: 10; 
+        font-size: .9rem;
+    }
   }
 
 
