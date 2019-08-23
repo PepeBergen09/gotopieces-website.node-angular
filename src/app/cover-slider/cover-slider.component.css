@@ -2,8 +2,7 @@
 
 .logo{
     text-align: center;
-    height: 70%;
-    padding: 2% 0;
+   
     
     
 }
@@ -12,10 +11,9 @@
 .logo img
 {
     display: inline-block;
-    /*padding-top: 200px;*/
-    height: 100%;
-    vertical-align: middle;
-    padding: 5% 0;
+    padding-top: 120px;
+    width: 350px;
+    
     
 }
 
@@ -55,7 +53,22 @@
 */
 
 @media (min-width: 1601px) {
+    .logo{
+        text-align: center;
+       
+        
+        
+    }
     
+    
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 550px;
+        
+        
+    }   
   }
   
   /* 
@@ -65,10 +78,13 @@
 
   @media (min-width: 1281px) and (max-width: 1600px) {
     
-    .logo{
-        text-align: center;
-        height: 70%;
-        padding: 3% 0;
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 350px;
+        
+        
     }
   }
   
@@ -79,10 +95,13 @@
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
-    .logo{
-        text-align: center;
-        height: 70%;
-        padding: 8% 0;
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 350px;
+        
+        
     }
   }
   
@@ -93,10 +112,13 @@
   
   @media (min-width: 768px) and (max-width: 1024px) {
     
-    .logo{
-        text-align: center;
-        height: 70%;
-        padding: 14% 0;
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 350px;
+        
+        
     }
     
   }
@@ -107,10 +129,13 @@
   */
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .logo{
-        text-align: center;
-        height: 70%;
-        padding: 14% 0;
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 350px;
+        
+        
     }
 
     .text-cover {
@@ -129,11 +154,13 @@
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
-    .logo{
-        text-align: center;
-        height: 60%;
-        padding: 3% 0;
-        padding-top: 100px; 
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 350px;
+        
+        
     }
 
     .text-cover {
@@ -152,11 +179,13 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    .logo{
-        text-align: center;
-        height: 60%;
-        padding: 5% 0;
-        padding-top: 100px; 
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 250px;
+        
+        
     }
    
     .text-cover {
@@ -170,11 +199,13 @@
   }
 
   @media (max-width: 319px) {
-    .logo{
-        text-align: center;
-        height: 70%;
-        padding: 5% 0;
-        padding-top: 100px; 
+    .logo img
+    {
+        display: inline-block;
+        padding-top: 120px;
+        width: 250px;
+        
+        
     }
 
     .text-cover {
