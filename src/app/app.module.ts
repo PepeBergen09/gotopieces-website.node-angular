@@ -35,6 +35,7 @@ import { Ukgames2019Component } from './pages/page-news/news/ukgames2019/ukgames
 import { SectionNewslettersComponent } from './sections/section-newsletters/section-newsletters.component';
 import { FjordarCoverComponent } from './pages/page-games/fjordar-cover/fjordar-cover.component';
 import { PageBlogComponent } from './pages/page-blog/page-blog.component';
+import { FjordarInfoComponent } from './pages/page-games/fjordar-info/fjordar-info.component';
 
 
 const appRoutes: Routes = [
@@ -78,7 +79,8 @@ const appRoutes: Routes = [
     Ukgames2019Component,
     SectionNewslettersComponent,
     FjordarCoverComponent,
-    PageBlogComponent
+    PageBlogComponent,
+    FjordarInfoComponent
    
   ],
   imports: [
