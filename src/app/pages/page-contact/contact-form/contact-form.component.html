@@ -15,6 +15,8 @@
         <!-- Form with header -->
         <div class="card">
           <div class="card-body">
+            
+              <form action="https://formspree.io/info@gotopiecesgames.com" method="POST">
             <!-- Header -->
             <div class="form-header accent-1">
               <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
@@ -22,27 +24,35 @@
             <!-- Body -->
             <div class="md-form">
               <i class="fas fa-user prefix grey-text"></i>
-              <input type="text" id="form-name" class="form-control">
+              <input type="text" id="form-name" class="form-control" name="name">
               <label for="form-name">Your name</label>
             </div>
             <div class="md-form">
               <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="text" id="form-email" class="form-control">
+              <input type="text" id="form-email" class="form-control" name="_replayto">
               <label for="form-email">Your email</label>
             </div>
             <div class="md-form">
               <i class="fas fa-tag prefix grey-text"></i>
-              <input type="text" id="form-Subject" class="form-control">
+              <input type="text" id="form-Subject" class="form-control" name="subject">
               <label for="form-Subject">Subject</label>
             </div>
             <div class="md-form">
               <i class="fas fa-pencil-alt prefix grey-text"></i>
-              <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+              <textarea id="form-text" class="form-control md-textarea" rows="3" name="message"></textarea>
               <label for="form-text">Send message</label>
+              
             </div>
             <div class="text-center">
-              <button class="btn btn-light-blue">Submit</button>
+              <!-- <button class="btn btn-light-blue"></button> -->
+                <input type="submit" value="Send" class="btn btn-light-blue">
+              
             </div>
+
+          </form>
+
+
+
           </div>
         </div>
         <!-- Form with header -->
