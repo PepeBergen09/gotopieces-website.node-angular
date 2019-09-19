@@ -36,6 +36,8 @@ import { SectionNewslettersComponent } from './sections/section-newsletters/sect
 import { FjordarCoverComponent } from './pages/page-games/fjordar-cover/fjordar-cover.component';
 import { PageBlogComponent } from './pages/page-blog/page-blog.component';
 import { FjordarInfoComponent } from './pages/page-games/fjordar-info/fjordar-info.component';
+import { NewsComponent } from './pages/page-news/news/news.component';
+import { TheBeginingComponent } from './pages/page-news/news/the-begining/the-begining.component';
 
 
 const appRoutes: Routes = [
@@ -48,6 +50,7 @@ const appRoutes: Routes = [
   {path: 'test', component: TestcomponentComponent},
   
   {path: 'ukexpo2019', component: Ukgames2019Component},
+  {path: 'thebegining', component: TheBeginingComponent}
 
 ];
 
@@ -80,7 +83,9 @@ const appRoutes: Routes = [
     SectionNewslettersComponent,
     FjordarCoverComponent,
     PageBlogComponent,
-    FjordarInfoComponent
+    FjordarInfoComponent,
+    NewsComponent,
+    TheBeginingComponent
    
   ],
   imports: [
