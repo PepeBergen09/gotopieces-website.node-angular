@@ -1,9 +1,12 @@
 .comingsoon {
 	line-height: 1.2;
     height: 100%;
-    background: #ffffff url('../../../../assets/images/fjordar_websiden-6.png') no-repeat center top;
+    background-image: url('../../../../assets/images/fjordar-cover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
-    height: 500px;
+    background-size: cover;
 }
 
 .img-coming {
@@ -95,7 +98,7 @@ table {
 {
 	font-size: 44px;
 }
-.subcription-info 
+.subcription-info
 {
     width: 60%;
     margin: 35px auto;
@@ -270,7 +273,7 @@ Media Queries
         margin: 10 auto;
 }
 body{
-    overflow-x:hidden; 
+    overflow-x:hidden;
 }
 }
 @media (min-width: 20px) and (max-width: 500px) {
