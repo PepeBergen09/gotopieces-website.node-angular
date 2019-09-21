@@ -291,4 +291,8 @@ body{
         width: 80%;
         margin: 7 auto;
 }
+
+.comingsoon {
+    background-image: url('../../../../assets/images/fjornar-cover-ml.png');
+}
 }
