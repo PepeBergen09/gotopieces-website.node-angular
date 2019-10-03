@@ -1,139 +1,77 @@
-.image-cover {
-	line-height: 1.2;
-    height: 100%;
-    background-image: url('../../../../assets/images/fjordar-cover.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: 'Open Sans', sans-serif;
-    background-size: cover;
-    margin-top: 0px;
+.masterhead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/assets/images/fjordar-cover-lg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.text-center{
-      text-align: center;
-  }
-.logo img
-{
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 50px;
-}
-.logo h2
-{
-	font-family: 'Lobster', cursive;
-	font-size: 34px;
-    padding-top: 40px;
-}
+.check{border: 1px solid red;}
+.fjordar-top{height: 120px;}
+.fjordar-middle-left {text-align: right;}
+.fjordar-middle-left img {width: 250px;}
+.fjordar-middle-right{text-align: center;}
+.fjordar-middle-right img {width: 250px;}
+.fjordar-middle{height: 46%;}
+.fjordar-bottom{height: 30%;}
+.fjordar-bottom-middle{display: none; text-align: center;}
+.fjordar-bottom-middle img { width: 250px;}
 
 /**********************************
 Media Queries
 ***********************************/
 /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
 @media (min-width: 1281px) and (max-width: 1600px) {
-  .logo img
-  {
-      display: inline-block;
-      padding-top: 120px;
-      width: 350px;
-  }
+
 }
 
 /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .logo img
-  {
-      display: inline-block;
-      padding-top: 120px;
-      width: 250px;
-  }
+
 }
+
 
 /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .logo img
-  {
-      display: inline-block;
-      padding-top: 120px;
-      width: 350px;
-  }
+
 }
 
 /* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .logo img
-  {
-      display: inline-block;
-      padding-top: 120px;
-      width: 350px;
-  }
 
-  .text-cover {
-      display: block;
-      line-height: 1.5;
-      z-index: 10;
-      font-size: 1.2rem;
-  }
 }
 
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
-
-  .logo img
-  {
-      display: inline-block;
-      padding-top: 120px;
-      width: 350px;
+  .masterhead{
+    background-image: url('/assets/images/fjordar-cover-sm2.png');
   }
 
-  .text-cover {
-      display: block;
-      line-height: 1.5;
-      z-index: 10;
-      font-size: 1.2rem;
-  }
+  .fjordar-middle-left img {width: 150px;}
+  .fjordar-middle-right {display: none}
+  .fjordar-bottom-middle {display: block;}
 }
 
 /* ##Device = Most of the Smartphones Mobiles (Portrait)
    ##Screen = B/w 320px to 479px */
 @media (min-width: 320px) and (max-width: 480px) {
-  .image-cover {
-    background-image: url('../../../../assets/images/fjordar-cover-sm1.png');
-    margin-top: 100px;
-}
-  .logo-fjordar
-  {
-    height: 100%;
-    background-image: url('../../../../assets/images/fjordar-logo-sm.png');
-    background-repeat: no-repeat;
+  .masterhead{
+    background-image: url('/assets/images/fjordar-cover-sm2.png');
   }
 
-  .text-cover {
-      display: block;
-      line-height: 1.2;
-      z-index: 10;
-      font-size: 1rem;
+  .fjordar-middle-left img {width: 150px;}
+  .fjordar-middle-right {display: none}
+  .fjordar-bottom-middle {display: block;}
 
-  }
 }
-
 @media (max-width: 319px) {
-  .image-cover {
-      background-image: url('../../../../assets/images/fjordar-cover-sm1.png');
-      margin-top: 100px;
+  .masterhead{
+    background-image: url('/assets/images/fjordar-cover-sm2.png');
   }
 
-  .logo img
-  {
-      display: inline-block;
-      padding-top: 120px;
-      width: 250px;
-  }
+  .fjordar-middle-left img {width: 150px;}
+  .fjordar-middle-right {display: none}
+  .fjordar-bottom-middle {display: block;}
 
-  .text-cover {
-      display: block;
-      line-height: 1;
-      z-index: 10;
-      font-size: .9rem;
-  }
 }
