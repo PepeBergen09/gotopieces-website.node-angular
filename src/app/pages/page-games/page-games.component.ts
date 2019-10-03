@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-page-games',
-  templateUrl: './page-games.component.html',
-  styleUrls: ['./page-games.component.css']
+  templateUrl: './page-games.component.html'
 })
 export class PageGamesComponent implements OnInit {
 

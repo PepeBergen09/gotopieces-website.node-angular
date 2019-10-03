@@ -1,8 +1,5 @@
 .gtp-cover {
 	line-height: 1.2;
-  /*height: 100%;
-    background: #ffffff url('../../assets/images/fjord.png') no-repeat center top;
-    height: 110px; */
     margin-top: 0;
     height: 100%;
     background-image: url('../../assets/images/fjord.png');
@@ -26,23 +23,10 @@
   width: 100%;
 }
 
-.vertical-align {
-  display: table-cell;
-  height: 300px;
-  padding: 10px;
-  border: 3px dashed #1c87c9;
-  vertical-align: middle;
-}
-
-.border-show {
-  border: #1c87c9;
-  border-style: solid;
-}
-
 .logo{
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 20px;
+  /*margin-top: 90px;*/
+  margin-bottom: 2px;
 }
 
 .v-middle {
@@ -56,23 +40,14 @@
 .logo img
 {
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 110px;
     /*padding-bottom: 50px;*/
     width: 300px;
 }
 
-.text-cover2 {
-  display: block;
-  line-height: 1.9;
-  z-index: 10;
-  font-size: 1.5rem;
-  color: #ffffff;
-  text-align: center;
-}
-
 .text-cover {
-  line-height: 1.9;
-  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-size: 1.4rem;
   color: #ffffff;
   text-align: center;
 }
@@ -88,9 +63,6 @@ Media Queries
 */
 
 @media (min-width: 1601px) {
-  .logo{
-      text-align: center;
-  }
 
   .logo img
   {
@@ -157,7 +129,7 @@ Media Queries
   .logo img
   {
       display: inline-block;
-      padding-top: 90px;
+      padding-top: 120px;
       width: 350px;
   }
 
@@ -175,7 +147,7 @@ Media Queries
   .logo img
   {
       display: inline-block;
-      padding-top: 90px;
+      padding-top: 120px;
       width: 250px;
   }
 
@@ -192,7 +164,7 @@ Media Queries
   .logo img
   {
       display: inline-block;
-      padding-top: 90px;
+      padding-top: 120px;
       width: 250px;
   }
 

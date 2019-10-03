@@ -1,0 +1,16 @@
+<div class="content comingsoon" style="height: 280px;">
+    <div class="container wow fadeInUp delay-03s">
+      <div class="row">
+          <div class="logo text-center col-12">
+              <h2>{{title}}</h2>
+          </div>
+          <div class="subcription-info text-center">
+              <p class="sub-p">Subscribe now to get recent updates!!!</p>
+              <div class="subscribe_form">
+                  <input type="text" class="form-control" [(ngModel)]="newsletterEmail" placeholder="Type your Newsletter Email..." >
+                  <button class="subscribe" type="button" (click)="CreateRecord()" [disabled]="!newsletterEmail">Subscribe</button>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>

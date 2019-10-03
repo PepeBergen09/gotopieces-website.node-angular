@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-page-news',
-  templateUrl: './page-news.component.html',
-  styleUrls: ['./page-news.component.css']
+  templateUrl: './page-news.component.html'
 })
 export class PageNewsComponent implements OnInit {
 
