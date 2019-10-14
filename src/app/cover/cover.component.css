@@ -3,5 +3,19 @@
   height: 110px;
 }
 
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait)
+   ##Screen = B/w 320px to 479px */
+@media (max-width: 480px) {
+  .image-top {
+    height: 100px;
+  }
+}
+
+
 
 

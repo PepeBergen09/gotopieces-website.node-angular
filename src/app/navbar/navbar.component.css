@@ -3,6 +3,8 @@
   src: url(../../assets/fonts/UPBOLTERS.otf);
 }
 
+.check{border: 1px solid red;}
+.navbar-empty{width: 15;}
 .strong {
       font-size: 2rem;
       font-family: 'upbolters';

@@ -9,7 +9,7 @@
 
 .check{border: 1px solid red;}
 .fjordar-top{height: 120px;}
-.fjordar-middle-left {text-align: right;}
+.fjordar-middle-left {text-align: center;}
 .fjordar-middle-left img {width: 250px;}
 .fjordar-middle-right{text-align: center;}
 .fjordar-middle-right img {width: 250px;}
@@ -47,7 +47,7 @@ Media Queries
   .masterhead{
     background-image: url('/assets/images/fjordar-cover-sm2.png');
   }
-
+  .fjordar-middle-left {text-align: right;}
   .fjordar-middle-left img {width: 150px;}
   .fjordar-middle-right {display: none}
   .fjordar-bottom-middle {display: block;}
@@ -59,7 +59,7 @@ Media Queries
   .masterhead{
     background-image: url('/assets/images/fjordar-cover-sm2.png');
   }
-
+  .fjordar-middle-left {text-align: right;}
   .fjordar-middle-left img {width: 150px;}
   .fjordar-middle-right {display: none}
   .fjordar-bottom-middle {display: block;}
@@ -69,7 +69,7 @@ Media Queries
   .masterhead{
     background-image: url('/assets/images/fjordar-cover-sm2.png');
   }
-
+  .fjordar-middle-left {text-align: right;}
   .fjordar-middle-left img {width: 150px;}
   .fjordar-middle-right {display: none}
   .fjordar-bottom-middle {display: block;}

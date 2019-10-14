@@ -64,9 +64,9 @@ Media Queries
   .masterhead{
     background-image: url('/assets/images/fjord.png');
   }
-  .main-middle{height: 35%;}
-  .main-bottom{height: 51%;}
-  .main-middle-middle img {width: 150px;}
+  .main-middle{height: 46%;}
+  .main-bottom{height: 40%;}
+  .main-middle-middle img {max-width: 220px;}
 }
 
 /* ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -75,9 +75,9 @@ Media Queries
   .masterhead{
     background-image: url('/assets/images/fjord.png');
   }
-  .main-middle{height: 35%;}
-  .main-bottom{height: 51%;}
-  .main-middle-middle img {width: 150px;}
+  .main-middle{height: 46%;}
+  .main-bottom{height: 40%;}
+  .main-middle-middle img {max-width: 180px;}
   .main-text{
     line-height: 1.5rem;
     text-align: center;
@@ -89,9 +89,9 @@ Media Queries
   .masterhead{
     background-image: url('/assets/images/fjord.png');
   }
-  .main-middle{height: 35%;}
-  .main-bottom{height: 51%;}
-  .main-middle-middle img {width: 150px;}
+  .main-middle{height: 46%;}
+  .main-bottom{height: 40%;}
+  .main-middle-middle img {max-width: 180px;}
   .main-text{
     line-height: 1.5rem;
     text-align: center;

@@ -5,6 +5,29 @@
 
 .text-fj-p {
     vertical-align: middle;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
+
+
+.fj-img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .fj-img-center{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 60px;
+  }
+}
+
+
+
+
 
