@@ -40,6 +40,7 @@ import { TheBeginingComponent } from './pages/page-news/news/the-begining/the-be
 import { NewslettersComponent } from './sections/newsletters/newsletters.component';
 import { News1BoxCoverComponent } from './pages/page-news/news/news1-box-cover/news1-box-cover.component';
 import { TestcomponentComponent } from './testcomponent/testcomponent.component';
+import { News2RegnConComponent } from './pages/page-news/news/news2-regn-con/news2-regn-con.component';
 
 
 
@@ -56,6 +57,7 @@ const appRoutes: Routes = [
   {path: 'ukexpo2019', component: Ukgames2019Component},
   {path: 'thebegining', component: TheBeginingComponent},
   {path: 'game-box', component: News1BoxCoverComponent},
+  {path: 'regncon', component: News2RegnConComponent},
   {path: 'test', component: TestcomponentComponent}
 
 ];
@@ -85,7 +87,8 @@ const appRoutes: Routes = [
     TheBeginingComponent,
     NewslettersComponent,
     News1BoxCoverComponent,
-    TestcomponentComponent
+    TestcomponentComponent,
+    News2RegnConComponent
 
   ],
   imports: [
