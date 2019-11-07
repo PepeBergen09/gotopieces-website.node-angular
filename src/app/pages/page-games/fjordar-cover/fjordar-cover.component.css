@@ -1,7 +1,7 @@
 .masterhead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('/assets/images/fjordar-cover-lg.png');
+  background-image: url('/assets/images/fjordar-cover-md.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ Media Queries
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
   .masterhead{
-    background-image: url('/assets/images/fjordar-cover-sm2.png');
+    background-image: url('/assets/images/fjordar-cover-sm2.svg');
   }
   .fjordar-middle-left {text-align: right;}
   .fjordar-middle-left img {width: 150px;}
@@ -57,7 +57,7 @@ Media Queries
    ##Screen = B/w 320px to 479px */
 @media (min-width: 320px) and (max-width: 480px) {
   .masterhead{
-    background-image: url('/assets/images/fjordar-cover-sm2.png');
+    background-image: url('/assets/images/fjordar-cover-sm2.svg');
   }
   .fjordar-middle-left {text-align: right;}
   .fjordar-middle-left img {width: 150px;}
@@ -67,7 +67,7 @@ Media Queries
 }
 @media (max-width: 319px) {
   .masterhead{
-    background-image: url('/assets/images/fjordar-cover-sm2.png');
+    background-image: url('/assets/images/fjordar-cover-sm2.svg');
   }
   .fjordar-middle-left {text-align: right;}
   .fjordar-middle-left img {width: 150px;}

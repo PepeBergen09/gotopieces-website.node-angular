@@ -104,7 +104,7 @@ const appRoutes: Routes = [
     AngularFireDatabaseModule,
 
     BrowserAnimationsModule,
-    RouterModule.forRoot(appRoutes, {useHash: true })
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'})
   ],
   providers: [FirebaseService],
   bootstrap: [AppComponent]

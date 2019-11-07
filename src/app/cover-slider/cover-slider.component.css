@@ -1,7 +1,7 @@
 .masterhead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('/assets/images/fjord.png');
+  background-image: url('/assets/images/fjord.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ Media Queries
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
   .masterhead{
-    background-image: url('/assets/images/fjord.png');
+    background-image: url('/assets/images/fjord.svg');
   }
   .main-middle{height: 46%;}
   .main-bottom{height: 40%;}
@@ -73,7 +73,7 @@ Media Queries
    ##Screen = B/w 320px to 479px */
 @media (min-width: 320px) and (max-width: 480px) {
   .masterhead{
-    background-image: url('/assets/images/fjord.png');
+    background-image: url('/assets/images/fjord.svg');
   }
   .main-middle{height: 46%;}
   .main-bottom{height: 40%;}
@@ -87,7 +87,7 @@ Media Queries
 }
 @media (max-width: 319px) {
   .masterhead{
-    background-image: url('/assets/images/fjord.png');
+    background-image: url('/assets/images/fjord.svg');
   }
   .main-middle{height: 46%;}
   .main-bottom{height: 40%;}
