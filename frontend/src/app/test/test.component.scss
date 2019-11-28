@@ -1,0 +1,33 @@
+@font-face {
+  font-family: upbolters;
+  src: url(../../assets/fonts/UPBOLTERS.otf);
+}
+
+.check{border: 1px solid red;}
+.navbar-empty{width: 15;}
+.strong {
+      font-size: 2rem;
+      font-family: 'upbolters';
+}
+
+.mr-100 {
+margin-right: 100px;
+}
+
+.navbar-nav{
+padding-right: 4.5rem;
+}
+
+
+@media only screen and (max-width: 1210px) {
+.strong {
+  font-size: 1.5rem;
+}
+
+.fa-2x{
+  size: .875em;
+}
+}
+
+
+

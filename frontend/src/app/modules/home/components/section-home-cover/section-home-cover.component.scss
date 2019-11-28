@@ -1,0 +1,101 @@
+.masterhead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/assets/images/fjord.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.check{border: 1px solid red;}
+.main-top{height: 120px;}
+.main-middle-middle {text-align: center;}
+.main-middle-middle img {width: 350px;}
+.main-middle-right{text-align: center;}
+.main-middle-right img {width: 250px;}
+.main-middle{height: 51%;}
+.main-bottom{height: 35%;}
+.main-bottom-middle{
+  text-align: center;
+}
+.main-text {
+  display: table-cell;
+  width: 100%;
+  height: 200px;
+  line-height: 1.9rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+/**********************************
+Media Queries
+***********************************/
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
+@media (min-width: 1281px) and (max-width: 1600px) {
+
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .masterhead{
+    background-image: url('/assets/images/fjord.svg');
+  }
+  .main-middle{height: 46%;}
+  .main-bottom{height: 40%;}
+  .main-middle-middle img {max-width: 220px;}
+}
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait)
+   ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .masterhead{
+    background-image: url('/assets/images/fjord.svg');
+  }
+  .main-middle{height: 46%;}
+  .main-bottom{height: 40%;}
+  .main-middle-middle img {max-width: 180px;}
+  .main-text{
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+}
+@media (max-width: 319px) {
+  .masterhead{
+    background-image: url('/assets/images/fjord-sm.svg');
+  }
+  .main-middle{height: 46%;}
+  .main-bottom{height: 40%;}
+  .main-middle-middle img {max-width: 180px;}
+  .main-text{
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+}

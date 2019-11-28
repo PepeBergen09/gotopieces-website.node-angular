@@ -1,0 +1,28 @@
+@font-face {
+  font-family: upbolters;
+  src: url(../../../assets/fonts/UPBOLTERS.otf);
+}
+
+.linea {
+  border: 5px solid red;
+
+}
+
+
+
+@media only screen and (max-width: 1210px) {
+  .strong {
+    font-size: 1.5rem;
+  }
+
+  .fa-2x{
+    size: .875em;
+  }
+  }
+
+.bg-gradient-style {
+  background: #000;
+  opacity: 0.5;
+}
+
+
