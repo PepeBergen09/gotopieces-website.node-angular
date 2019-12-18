@@ -41,6 +41,7 @@ import { NewslettersComponent } from './sections/newsletters/newsletters.compone
 import { News1BoxCoverComponent } from './pages/page-news/news/news1-box-cover/news1-box-cover.component';
 import { TestcomponentComponent } from './testcomponent/testcomponent.component';
 import { News2RegnConComponent } from './pages/page-news/news/news2-regn-con/news2-regn-con.component';
+import { News3EssenComponent } from './pages/page-news/news/news3-essen/news3-essen.component';
 
 
 
@@ -58,6 +59,7 @@ const appRoutes: Routes = [
   {path: 'thebegining', component: TheBeginingComponent},
   {path: 'game-box', component: News1BoxCoverComponent},
   {path: 'regncon', component: News2RegnConComponent},
+  {path: 'essen', component: News3EssenComponent},
   {path: 'test', component: TestcomponentComponent}
 
 ];
@@ -88,7 +90,8 @@ const appRoutes: Routes = [
     NewslettersComponent,
     News1BoxCoverComponent,
     TestcomponentComponent,
-    News2RegnConComponent
+    News2RegnConComponent,
+    News3EssenComponent
 
   ],
   imports: [
