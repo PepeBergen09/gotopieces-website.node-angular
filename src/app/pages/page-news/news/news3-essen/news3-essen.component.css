@@ -1,0 +1,14 @@
+div.image {
+  content: url(/../../assets/images/essen-cover.svg);
+}
+
+@media screen and (max-width: 480px) {
+  div.image {
+    content: url(/../../assets/images/essen1.svg);
+  }
+
+  .col-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+  };
+};
