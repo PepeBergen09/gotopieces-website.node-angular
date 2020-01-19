@@ -61,6 +61,6 @@ typings/
 .next
 
 # distribution
-/dist/
-src/app/pages/page-aboutus/about-intro/about-intro.component.css
-src/app/pages/page-blog/page-blog.component.css
+#/dist/
+#src/app/pages/page-aboutus/about-intro/about-intro.component.css
+#src/app/pages/page-blog/page-blog.component.css
