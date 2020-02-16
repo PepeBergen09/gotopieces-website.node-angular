@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 declare var jQuery: any;
 @Component({
   selector: 'app-fjordar-info',

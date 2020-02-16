@@ -20,12 +20,14 @@
 /* ------------------------------ */
 
 body {
-  background-color:#1d1d1d !important;
+  background-color:#06335e !important;
   font-family: "Asap", sans-serif;
-  color:#989898;
+  color:#fcdfc7;
   margin:10px;
   font-size:16px;
 }
+
+
 
 #demo {
   height:100%;
