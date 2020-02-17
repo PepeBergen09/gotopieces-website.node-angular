@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ViewChild, ElementRef } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
@@ -98,6 +99,7 @@ const appRoutes: Routes = [
     BrowserModule,
     MatToolbarModule,
     MatCardModule,
+    HttpClientModule,
 
     FormsModule,
     ReactiveFormsModule,

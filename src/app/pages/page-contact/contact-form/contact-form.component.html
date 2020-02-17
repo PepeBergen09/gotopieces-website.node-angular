@@ -15,31 +15,35 @@
         <!-- Form with header -->
         <div class="card">
           <div class="card-body">
-
-              <form action="https://formspree.io/info@gotopiecesgames.com" method="POST">
+            <form #contactform="ngForm" (ngSubmit)="sendMail()">
+            <!-- <form action="https://formspree.io/info@gotopiecesgames.com" method="POST"> -->
             <!-- Header -->
+            <div *ngIf="existSuccess" class="text-center">
+              <p style="color: green">Your message have been sent</p>
+            </div>
             <div class="form-header accent-1">
               <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
+              <p *ngIf="existError" style="color: red">Please fill all the fields and use a correct email format</p>
             </div>
             <!-- Body -->
             <div class="md-form">
               <i class="fas fa-user prefix grey-text"></i>
-              <input type="text" id="form-name" class="form-control" name="name">
+              <input type="text" id="form-name" class="form-control" name="name" ngModel required>
               <label for="form-name">Your name</label>
             </div>
             <div class="md-form">
               <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="text" id="form-email" class="form-control" name="_replayto">
+              <input type="email" id="form-email" class="form-control" name="_replayto" ngModel required email>
               <label for="form-email">Your email</label>
             </div>
             <div class="md-form">
               <i class="fas fa-tag prefix grey-text"></i>
-              <input type="text" id="form-Subject" class="form-control" name="subject">
+              <input type="text" id="form-Subject" class="form-control" name="subject" ngModel required>
               <label for="form-Subject">Subject</label>
             </div>
             <div class="md-form">
               <i class="fas fa-pencil-alt prefix grey-text"></i>
-              <textarea id="form-text" class="form-control md-textarea" rows="3" name="message"></textarea>
+              <textarea id="form-text" class="form-control md-textarea" rows="3" name="message" ngModel required></textarea>
               <label for="form-text">Send message</label>
 
             </div>
