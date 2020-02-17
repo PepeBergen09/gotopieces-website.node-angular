@@ -26,7 +26,7 @@ export class ContactFormComponent implements OnInit {
     this.existSuccess = false;
     if (this.form.valid) {
       this.existError = false;
-      this.http.post("https://formspree.io/xwkodwdg",
+      this.http.post("https://formspree.io/myywqolq",
           {
               name: this.form.value.name,
               reply_to: this.form.value._replayto,
