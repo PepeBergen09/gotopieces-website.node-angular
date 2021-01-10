@@ -6,9 +6,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
     styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-    @ViewChild('navbarToggler') navbarToggler:ElementRef;
-
-  
+  @ViewChild('navbarToggler') navbarToggler: ElementRef;
 
   navBarTogglerIsVisible() {
     return this.navbarToggler.nativeElement.offsetParent !== null;

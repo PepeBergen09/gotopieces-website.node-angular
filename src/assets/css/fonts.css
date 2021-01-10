@@ -1,4 +1,4 @@
 @font-face {
     font-family: frisianus;
-    src: url(../fonts/FrisianusOT.otf) format("opentype");
+    src: url(./src/assets/fonts/FrisianusOT.otf) format("opentype");
   }
